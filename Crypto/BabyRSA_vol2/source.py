@@ -14,5 +14,3 @@ def main():
 
 if __name__ == "__main__":
 	main()
-
-#"agrihack{mapping_RSA_isnt_that_hard_53a45bcf}"

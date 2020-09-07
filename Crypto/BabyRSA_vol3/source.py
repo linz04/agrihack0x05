@@ -12,5 +12,3 @@ def main():
 if __name__ == "__main__":
 	main()
 
-
-#"agrihack{prime_N__is_quite_simple_to_break}"
