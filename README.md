@@ -10,6 +10,12 @@ Agrihack 0x05
 
 | challenge               | category     | penyisihan         | final              | service                | flag                                                                              |
 |-------------------------|--------------|--------------------|--------------------|------------------------|-----------------------------------------------------------------------------------|
+| BASIC	  				  | Cryptography | :heavy_check_mark: |  				   |                        | `agrihack{basic_to_know_base64}` 	|
+| Roman	  				  | Cryptography | :heavy_check_mark: |  				   |                        | `agrihack{Gaius_Julius_Caesar}` 	|
+| GiovanBattistaBellaso	  | Cryptography | :heavy_check_mark: |  				   |                        | `agrihack{Vignere_Ch1p3r's_H3r3}` |
+| Talking	  			  | Cryptography | :heavy_check_mark: |  				   |                        | `agrihack{1t_just_alfh4b3t_r3pr3s3n74710n}` |
+|  Matrix	 			  | Cryptography | :heavy_check_mark: |  				   |                        | `
+agrihack[C0lumn4t_Tr4nsp051t1000N}` 	 |
 | BabyRSA 	              | Cryptography | :heavy_check_mark: |  				   | nc                     | `agrihack{congratss_you've_learn_basic_RSA}`                   |
 | BabyRSA_vol2 	          | Cryptography | :heavy_check_mark: |  				   |                        | `agrihack{mapping_RSA_isnt_that_hard_53a45bcf}`                |
 | ToddlerRSA 	          | Cryptography | :heavy_check_mark: |  				   |                        | `agrihack{prime_N__is_quite_simple_to_break}`                  |
@@ -22,3 +28,5 @@ Agrihack 0x05
 | BabyBlockCipher	      | Cryptography | :heavy_check_mark: |  				   |                        | `agrihack{51mpl3_ECB_MODE_34b6a5}` |
 | BabyBlockCipher_vol2	  | Cryptography | :heavy_check_mark: |  				   |                        | `agrihack{S1mpl3_AES_CBC___652b34f}` |
 | ToddlerBlockCipher	  | Cryptography | :heavy_check_mark: |  				   |                        | `agrihack{OFB_15_8r0k3n__b634b4}` |
+
+
