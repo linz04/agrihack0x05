@@ -28,4 +28,4 @@ Agrihack 0x05
 | BabyBlockCipher_vol2	  | Cryptography | :heavy_check_mark: |  				   |                        | `agrihack{S1mpl3_AES_CBC___652b34f}`                      |
 | ToddlerBlockCipher	    | Cryptography | :heavy_check_mark: |  				   |                        | `agrihack{OFB_15_8r0k3n__b634b4}`                         |
 
-
+| Wo Sing Cing Tao	    | Forensic | :heavy_check_mark: |  				   |                        | `agrihack{Un1C0D3_Z3R0_width_SPAC3}`                         |
