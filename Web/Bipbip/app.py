@@ -1,3 +1,5 @@
+#/usr/bin/python3
+
 from flask import Flask, render_template, make_response
 
 app = Flask(__name__, static_folder='static', static_url_path='')
