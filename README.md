@@ -34,4 +34,6 @@ Agrihack 0x05
 | Shell32                   | PWN          | :heavy_check_mark: |            |  nc                    | `agrihack{Shellcode_assembly_is_so_important_LINZ_IS_HERE}`            |
 | Shell64                   | PWN          | :heavy_check_mark: |            |  nc                    | `agrihack{Shellcode_in_64bit_GRATS!!!_LINZ_IS_HERE}`            |
 | String                   | PWN          | :heavy_check_mark: |            |  nc                    | `agrihack{u_can_leak_some_information_from_format_string_attack_LINZ_IS_HERE}`            |
+| Bipbip                   | Web          | :heavy_check_mark: |            |                      | `agrihack{robootssssssss_a_little_information_LINZ_IS_HERE}`            |
+| Kingsman                   | Web          | :heavy_check_mark: |            |                      | `agrihack{ur_now_our_agent0x05_LINZ_IS_HERE}`            |
 | Wo Sing Cing Tao	    | Forensic | :heavy_check_mark: |  				   |                        | `agrihack{Un1C0D3_Z3R0_width_SPAC3}`                         |
