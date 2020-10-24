@@ -2,8 +2,8 @@
 #include <string.h>
 #include <stdlib.h>
 
-char str1[] = "nc_nlsskwlk";
-char str2[] = "i3aayi_0as1";
+int str1[] = {110, 99, 95, 110, 108, 115, 115, 107, 119, 108, 107};
+int str2[] = {105, 51, 97,  97, 121, 105,  95,  48,  97, 115,  49};
 
 int main(int argc, char const *argv[])
 {
