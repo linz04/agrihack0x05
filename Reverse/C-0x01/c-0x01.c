@@ -2,8 +2,8 @@
 #include <string.h>
 #include <stdlib.h>
 
-int str1[] = {110, 99, 95, 110, 108, 115, 115, 107, 119, 108, 107};
-int str2[] = {105, 51, 97,  97, 121, 105,  95,  48,  97, 115,  49};
+int arr1[11] = {110, 99, 95, 110, 108, 115, 115, 107, 119, 108, 107};
+int arr2[11] = {105, 51, 97,  97, 121, 105,  95,  48,  97, 115,  49};
 
 int main(int argc, char const *argv[])
 {
@@ -19,14 +19,14 @@ int main(int argc, char const *argv[])
 
 	for(i = 0; i < 22; i++){
 		if(i%2 == 0){
-			if(buf[i] != str1[i/2]){
+			if((int)buf[i] != arr1[i/2]){
 				puts("nope.");
 				exit(0);
 			}
 
 		}
 		else{
-			if(buf[i] != str2[i/2]){
+			if((int)buf[i] != arr2[i/2]){
 				puts("nope.");
 				exit(0);
 			}
