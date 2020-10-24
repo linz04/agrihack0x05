@@ -1,4 +1,6 @@
-#Desc
+#masterrace
+
+##Desc
 Belum bisa move on dari EX? Yaudah coba kenalan sama hex
 
 ##Flag
