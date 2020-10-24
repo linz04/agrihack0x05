@@ -27,4 +27,5 @@ Agrihack 0x05
 | BabyBlockCipher	        | Cryptography | :heavy_check_mark: |  				   |                        | `agrihack{51mpl3_ECB_MODE_34b6a5}`                        |
 | BabyBlockCipher_vol2	  | Cryptography | :heavy_check_mark: |  				   |                        | `agrihack{S1mpl3_AES_CBC___652b34f}`                      |
 | ToddlerBlockCipher	    | Cryptography | :heavy_check_mark: |  				   |                        | `agrihack{OFB_15_8r0k3n__b634b4}`                         |
+| Flow1                   | PWN          | :heavy_check_mark: |            |  nc                    | `agrihack{Toooooooooo_much_character_is_dangerous_LINZ_IS_HERE}`            |
 | Wo Sing Cing Tao	    | Forensic | :heavy_check_mark: |  				   |                        | `agrihack{Un1C0D3_Z3R0_width_SPAC3}`                         |
