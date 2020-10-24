@@ -28,4 +28,10 @@ Agrihack 0x05
 | BabyBlockCipher_vol2	  | Cryptography | :heavy_check_mark: |  				   |                        | `agrihack{S1mpl3_AES_CBC___652b34f}`                      |
 | ToddlerBlockCipher	    | Cryptography | :heavy_check_mark: |  				   |                        | `agrihack{OFB_15_8r0k3n__b634b4}`                         |
 | Flow1                   | PWN          | :heavy_check_mark: |            |  nc                    | `agrihack{Toooooooooo_much_character_is_dangerous_LINZ_IS_HERE}`            |
+| Flow2                   | PWN          | :heavy_check_mark: |            |  nc                    | `agrihack{U_CAN_CONTROL_THE_VALUE_NOW!!!_LINZ_IS_HERE}`            |
+| Flow3                   | PWN          | :heavy_check_mark: |            |  nc                    | `agrihack{jump_to_anywhere_with_overflow_LINZ_IS_HERE}`            |
+| Flow4                   | PWN          | :heavy_check_mark: |            |  nc                    | `agrihack{Return_to_libc_to_gain_a_shell_LINZ_IS_HERE}`            |
+| Shell32                   | PWN          | :heavy_check_mark: |            |  nc                    | `agrihack{Shellcode_assembly_is_so_important_LINZ_IS_HERE}`            |
+| Shell64                   | PWN          | :heavy_check_mark: |            |  nc                    | `agrihack{Shellcode_in_64bit_GRATS!!!_LINZ_IS_HERE}`            |
+| String                   | PWN          | :heavy_check_mark: |            |  nc                    | `agrihack{u_can_leak_some_information_from_format_string_attack_LINZ_IS_HERE}`            |
 | Wo Sing Cing Tao	    | Forensic | :heavy_check_mark: |  				   |                        | `agrihack{Un1C0D3_Z3R0_width_SPAC3}`                         |
