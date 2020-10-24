@@ -37,3 +37,7 @@ Agrihack 0x05
 | Bipbip                   | Web          | :heavy_check_mark: |            |                      | `agrihack{robootssssssss_a_little_information_LINZ_IS_HERE}`            |
 | Kingsman                   | Web          | :heavy_check_mark: |            |                      | `agrihack{ur_now_our_agent0x05_LINZ_IS_HERE}`            |
 | Wo Sing Cing Tao	    | Forensic | :heavy_check_mark: |  				   |                        | `agrihack{Un1C0D3_Z3R0_width_SPAC3}`                         |
+| HEX MASTERACE   	    | Forensic | :heavy_check_mark: |  				   |                        | `agrihack{h3x_ad4lah_ko3ntji_LINZ_IS_BUCYN}`                  |
+| HEX MASTERACE - II	  | Forensic | :heavy_check_mark: |  				   |                        | `agrihack{str03rtur_Sud4h_p45t1_LINZ_IS_BUCYN}`               |
+| HEX MASTERACE - III	  | Forensic | :heavy_check_mark: |  				   |                        | `agrihack{m3tad4ta_fri3ndly_LINZ_IS_BUCYN}`                   |
+| HEX MASTERACE - IV	  | Forensic | :heavy_check_mark: |  				   |                        | `agrihack{m3t4data_m45tery_KASIAN_AH_LINZ}                    |
