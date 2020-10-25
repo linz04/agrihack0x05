@@ -18,8 +18,8 @@ int main(int argc, char **argv){
 
   setvbuf(stdout, NULL, _IONBF, 0);
 
-  char buf[64];
-  char flag[64];
+  char buf[128];
+  char flag[128];
   char *flag_ptr = flag;
 
   memset(buf, 0, sizeof(flag));
