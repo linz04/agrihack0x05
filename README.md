@@ -36,7 +36,6 @@ Agrihack 0x05
 | String                   | PWN          | :heavy_check_mark: |            |  nc                    | `agrihack{u_can_leak_some_information_from_format_string_attack_LINZ_IS_HERE}`            |
 | Bipbip                   | Web          | :heavy_check_mark: |            |                      | `agrihack{robootssssssss_a_little_information_LINZ_IS_HERE}`            |
 | Kingsman                   | Web          | :heavy_check_mark: |            |                      | `agrihack{ur_now_our_agent0x05_LINZ_IS_HERE}`            |
-
 | Dark Joke	    | Forensic | :heavy_check_mark: |  				   |                        | `agrihack{RGB_1_is_d4rk_not_dark3st}`                         |
 | HEX MASTERACE   	    | Forensic | :heavy_check_mark: |  				   |                        | `agrihack{h3x_ad4lah_ko3ntji_LINZ_IS_BUCYN}`                  |
 | HEX MASTERACE - II	  | Forensic | :heavy_check_mark: |  				   |                        | `agrihack{str03rtur_Sud4h_p45t1_LINZ_IS_BUCYN}`               |
