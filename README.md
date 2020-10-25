@@ -44,6 +44,7 @@ Agrihack 0x05
 | Mata Ajaib	  | Forensic | :heavy_check_mark: |  				   |                        | `agrihack{Stereogr4m_is_n0t_M4gic}`                    |
 | Vola - V1	  | Forensic | :heavy_check_mark: |  				   |                        | `agrihack{a_5Impl3_file_EkxTr4ct11oN__}`                    |
 | Vola - V2	  | Forensic | :heavy_check_mark: |  				   |                        | `agrihack{l33T_h4XX0rzz__u53_Cl1_yekn0w}`                    |
+| Wheres Waldo?	    | Forensic | :heavy_check_mark: |  				   |                        | `agrihack{oh_h3r3_15_w4LDoo__776c64}`                         |
 | Wo Sing Cing Tao	    | Forensic | :heavy_check_mark: |  				   |                        | `agrihack{Un1C0D3_Z3R0_width_SPAC3}`                         |
 | C-0x00            	  | Reverse  | :heavy_check_mark: |  				   |                        | `agrihack{sssHHHIIIffftttIIINNNggg}`                        |
 | C-0x01            	  | Reverse  | :heavy_check_mark: |  				   |                        | `agrihack{nic3_analysis_k0walsk1}`                        |
