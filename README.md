@@ -43,7 +43,6 @@ Agrihack 0x05
 | HEX MASTERACE - IV	  | Forensic | :heavy_check_mark: |  				   |                        | `agrihack{m3t4data_m45tery_KASIAN_AH_LINZ}`                    |
 | Vola - V1	  | Forensic | :heavy_check_mark: |  				   |                        | `agrihack{a_5Impl3_file_EkxTr4ct11oN__}`                    |
 | Vola - V2	  | Forensic | :heavy_check_mark: |  				   |                        | `agrihack{l33T_h4XX0rzz__u53_Cl1_yekn0w}`                    |
-
 | C-0x00            	  | Reverse  | :heavy_check_mark: |  				   |                        | `agrihack{sssHHHIIIffftttIIINNNggg}`                        |
 | C-0x01            	  | Reverse  | :heavy_check_mark: |  				   |                        | `agrihack{nic3_analysis_k0walsk1}`                        |
 | python-0x00        	  | Reverse  | :heavy_check_mark: |  				   |                        | `agrihack{dec0mpile_pyc_bytc0de__9adj3}`                        |
