@@ -33,19 +33,35 @@ body {
 }
 </style>
 </head>
-<body>
-
 <div class="topnav">
   <a class="active" href="index.php">Home</a>
   <a href="list.php">Books</a>
 </div>
 
 <div style="padding-left:16px">
-  <h2>Hello Welcome to LSI IPB</h2>
-    <p>Disini kami menyediakan beberapa buku :)</p>
-    <p>Sebelumnya terdapat bug tapi kali ini sudah kami fix :)</p>
-    <p>Selamat Membaca :)</p>
-</div>
-</body>
+  <h2>List Books</h2>
+    <p>Welcome to LSI IPB!! Silahkan pilih buku yang mau Anda baca
+      <ul>
+        <li><a href="list.php?page=book1.php">Kingsman: The Secret Service</a></li>
+        <li><a href="list.php?page=book2.php">Enola Holmes</a></li>
+        <li><a href="list.php?page=book3.php">Secret File</a></li>
+      </ul>
+    
+    <?php 
+    ini_set('display_errors', 1);
+    ini_set('display_startup_errors', 1);
+    error_reporting(E_ALL);
+    if (isset($_GET['page'])) 
+    {   
+        include $_GET['page']; 
+    } 
+    else 
+    {
+    }
+    
+    ?>
+    
+  </body>
 </html>
+
 
