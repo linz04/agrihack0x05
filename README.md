@@ -36,12 +36,14 @@ Agrihack 0x05
 | String                   | PWN          | :heavy_check_mark: |            |  nc                    | `agrihack{u_can_leak_some_information_from_format_string_attack_LINZ_IS_HERE}`            |
 | Bipbip                   | Web          | :heavy_check_mark: |            |                      | `agrihack{robootssssssss_a_little_information_LINZ_IS_HERE}`            |
 | Kingsman                   | Web          | :heavy_check_mark: |            |                      | `agrihack{ur_now_our_agent0x05_LINZ_IS_HERE}`            |
+| Redirect                   | Web          | :heavy_check_mark: |            |                      | `agrihack{R3d1reCt_N0__r3dIrEcT!ng___x999699} `            |
 | Dark Joke	    | Forensic | :heavy_check_mark: |  				   |                        | `agrihack{RGB_1_is_d4rk_not_dark3st}`                         |
 | HEX MASTERACE   	    | Forensic | :heavy_check_mark: |  				   |                        | `agrihack{h3x_ad4lah_ko3ntji_LINZ_IS_BUCYN}`                  |
 | HEX MASTERACE - II	  | Forensic | :heavy_check_mark: |  				   |                        | `agrihack{str03rtur_Sud4h_p45t1_LINZ_IS_BUCYN}`               |
 | HEX MASTERACE - III	  | Forensic | :heavy_check_mark: |  				   |                        | `agrihack{m3tad4ta_fri3ndly_LINZ_IS_BUCYN}`                   |
 | HEX MASTERACE - IV	  | Forensic | :heavy_check_mark: |  				   |                        | `agrihack{m3t4data_m45tery_KASIAN_AH_LINZ}`                    |
 | Mata Ajaib	  | Forensic | :heavy_check_mark: |  				   |                        | `agrihack{Stereogr4m_is_n0t_M4gic}`                    |
+| Side-by-Side	  | Forensic | :heavy_check_mark: |  				   |                        | `agrihack{y0u_c4n_aPP3nd_d4t4_Aft3r_PN6_F00tEr}`                    |
 | Vola - V1	  | Forensic | :heavy_check_mark: |  				   |                        | `agrihack{a_5Impl3_file_EkxTr4ct11oN__}`                    |
 | Vola - V2	  | Forensic | :heavy_check_mark: |  				   |                        | `agrihack{l33T_h4XX0rzz__u53_Cl1_yekn0w}`                    |
 | Wheres Waldo?	    | Forensic | :heavy_check_mark: |  				   |                        | `agrihack{oh_h3r3_15_w4LDoo__776c64}`                         |
@@ -49,4 +51,3 @@ Agrihack 0x05
 | C-0x00            	  | Reverse  | :heavy_check_mark: |  				   |                        | `agrihack{sssHHHIIIffftttIIINNNggg}`                        |
 | C-0x01            	  | Reverse  | :heavy_check_mark: |  				   |                        | `agrihack{nic3_analysis_k0walsk1}`                        |
 | python-0x00        	  | Reverse  | :heavy_check_mark: |  				   |                        | `agrihack{dec0mpile_pyc_bytc0de__9adj3}`                        |
-
