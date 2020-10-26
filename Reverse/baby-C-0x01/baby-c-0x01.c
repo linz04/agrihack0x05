@@ -85,7 +85,7 @@ int main(int argc, char const *argv[])
         exit(0);   
     }
 
-    puts("Congratz!\nHere is your flag: agrihack{whoaaa_u_find_me}");
+    printf("Congratz!\nHere is your flag: agrihack{%s}\n", s);
 
     return 0;
 }
