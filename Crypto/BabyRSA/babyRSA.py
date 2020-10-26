@@ -38,7 +38,7 @@ def soal4():
 		exit()
 
 def soal5():
-	inp=int(input("Berapakah faktor terbesar dari 123456789 ?\n"))
+	inp=int(input("Berapakah faktor prima terbesar dari 123456789 ?\n"))
 	if(inp==(3803)):
 		print("Nice !\n")
 		return 1
@@ -47,9 +47,9 @@ def soal5():
 		exit()
 
 def soal6():
-	f=33880517319299196463600459620624613021600533542931932135984583492186469749535077705793713439029399075864778407730597592296787911209437152431773255576203991926862139149315381927052159433526330870014432152811209537572693003201557581471025298127580200861003813519910656147774927718271304187013784061
+	f=1604413
 	x=135559704094911280733379964080758441789757655164565357031817762461022711318540283640837507092589154257758810178032399821560495620555773467900061257574296756908330466265464875840801549598742096139119659989584617827179692812221698192086787482773502103191954307332626707055214505989726149117205283458968909682488
-	inp=int(input("Berapakah faktor terbesar dari "+str(x)+" ?\n"))
+	inp=int(input("Berapakah faktor prima terbesar dari "+str(x)+" ?\n"))
 	if(inp==(f)):
 		print("Nice !\n")
 		return 1
@@ -68,17 +68,17 @@ def soal7():
 		exit()
 
 def soal8():
-	p = 857504083339712752489993810777
-	q = 1029224947942998075080348647219
+	p=33487157890737642509961701251
+	q=41794375358926499210005491991715885790475505971
 	n = int(p*q)
 	e = 65537
-	m = bytes_to_long("agrihack{congratss_you've_learn_basic_RSA}")
-	enc = int(pow(int(m),int(e),int(n)))
+	m = bytes_to_long(b"agrihack{youve_learn_basic_RSA}")
+	enc = pow(m,e,n)
 	print("Silahkan pelajari tentang RSA !")
-	print("Silahkan decrypt flag ini :",enc)
+	print("Silahkan decrypt flag ini :",str(enc))
 	print("Berikut informasi yang anda perlukan : ")
-	print("n = ",int(n))
-	print("e = ",e)
+	print("n = ",str(n))
+	print("e = ",str(e))
 
 
 def main():
