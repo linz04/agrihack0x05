@@ -1,8 +1,8 @@
-#include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 #include <unistd.h>
-#include <sys/types.h>
+#include <stdio.h>
+
+//gcc shell.c -m32 -fno-stack-protector -no-pie -z execstack -o shell
 
 void logo(){
   puts("██╗     ██╗███╗   ██╗███████╗");
@@ -14,31 +14,21 @@ void logo(){
 }
 
 
-int main(int argc, char **argv){
 
-  setvbuf(stdout, NULL, _IONBF, 0);
+void setup(){
+  setvbuf(stdin,0,2,0);
+  setvbuf(stdout,0,2,0);
+}
 
-  char buf[64];
-  char flag[64];
-  char *flag_ptr = flag;
 
-  memset(buf, 0, sizeof(flag));
-  memset(buf, 0, sizeof(buf));
-
-  puts("This time u can learn some string");
-  
-  FILE *file = fopen("flag.txt", "r");
-  if (file == NULL) {
-    printf("No file flag.txt \n");
-    exit(0);
-  }
-  
-  fgets(flag, sizeof(flag), file);
-  
-  while(1) {
-    printf("> ");
-    fgets(buf, sizeof(buf), stdin);
-    printf(buf);
-  }  
+int main(int argc, char **argv)
+{
+  setup();
+  logo();
+  char buffer[128];
+  printf("Buffer: %p\n" , &buffer);
+  puts("Can u get a full of control by hacking this program?");
+  puts("No where to run");
+  gets(buffer);
   return 0;
 }
