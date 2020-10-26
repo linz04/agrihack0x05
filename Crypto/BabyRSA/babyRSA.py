@@ -77,7 +77,7 @@ def soal8():
 	print("Silahkan pelajari tentang RSA !")
 	print("Silahkan decrypt flag ini :",enc)
 	print("Berikut informasi yang anda perlukan : ")
-	print("n = ",int(n)
+	print("n = ",int(n))
 	print("e = ",e)
 
 
