@@ -1,0 +1,12 @@
+version: '3'
+services:
+  agrihack:
+    container_name: passwordcracker3
+    restart: always
+    build:
+      context: .
+      args:
+              binary: nc.py
+    ports:
+      - "16003:5000" # exposed:local
+    read_only: true
