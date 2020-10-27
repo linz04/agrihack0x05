@@ -1,12 +1,12 @@
 version: '3'
 services:
-  hacktoday:
-    container_name: passwordcracker 
+  agrihack:
+    container_name: passwordcracker3
     restart: always
     build:
       context: .
       args:
               binary: nc.py
     ports:
-      - "15001:5000" # exposed:local
+      - "16003:5000" # exposed:local
     read_only: true
