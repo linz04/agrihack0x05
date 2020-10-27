@@ -1,0 +1,12 @@
+version: '3'
+services:
+  hacktoday:
+    container_name: buffer-overflow
+    restart: always
+    build:
+      context: .
+    working_dir: /home/ctf
+    ports:
+      - "17013:31337" # exposed:local
+    entrypoint: /etc/run_xinetd.sh
+    read_only: true
