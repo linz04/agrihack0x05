@@ -1,0 +1,12 @@
+version: '3'
+services:
+  hacktoday:
+    container_name: babyaes2 
+    restart: always
+    build:
+      context: .
+      args:
+              binary: source.py
+    ports:
+      - "15005:5000" # exposed:local
+    read_only: true
