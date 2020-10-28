@@ -1,7 +1,7 @@
 version: '3'
 services:
-  hacktoday:
-    container_name: buffer-overflow
+  agrihack:
+    container_name: c-0x02
     restart: always
     build:
       context: .

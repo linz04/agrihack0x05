@@ -42,9 +42,9 @@ int main(int argc, char const *argv[])
         }
     }
 
-    printf("Welcome!\n");
+    printf("Welcome!\n\n\n");
     sleep(1);
-    system("/bin/bash");
+    system("/bin/G64180024sh");
 
     return 0;
 }

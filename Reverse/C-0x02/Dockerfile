@@ -9,8 +9,10 @@ RUN apt-get update --fix-missing && apt-get -y upgrade
 RUN apt-get install -y lib32z1 libseccomp-dev xinetd
 
 # Create ctf-user
-RUN groupadd -r ctf && useradd -r -g ctf ctf
-RUN mkdir /home/ctf
+#RUN groupadd -r ctf && useradd -r -g ctf ctf
+#RUN mkdir /home/ctf
+RUN useradd -ms /bin/bash ctf
+
 
 # Configuration files/scripts
 ADD config/ctf.xinetd /etc/xinetd.d/ctf
@@ -18,14 +20,15 @@ ADD config/run_xinetd.sh /etc/run_xinetd.sh
 ADD config/run_challenge.sh /home/ctf/run_challenge.sh
 
 # Challenge files
-ADD flag /flag
+ADD flag.txt /home/ctf/flag.txt
 ADD release/chall /home/ctf/chall
+ADD G64180024sh /bin/G64180024sh
 
 # Set some proper permissions
-RUN chown -R root:ctf /home/ctf /flag
+RUN chown -R root:ctf /home/ctf/  /home/ctf/flag.txt
 RUN chmod 750 /home/ctf/chall
 RUN chmod 750 /home/ctf/run_challenge.sh
-RUN chmod 440 /flag
+RUN chmod 440 /home/ctf/flag.txt
 RUN chmod 700 /etc/run_xinetd.sh
 
 RUN service xinetd restart
