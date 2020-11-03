@@ -1,0 +1,10 @@
+version: '3'
+services:
+  hacktoday:
+    container_name: insecure
+    restart: always
+    build:
+      context: .
+    ports:
+      - "15005:80" # exposed:local
+    working_dir: /app
