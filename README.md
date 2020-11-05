@@ -37,7 +37,6 @@ Agrihack 0x05
 | Bipbip                   | Web          | :heavy_check_mark: |            |                      | `agrihack{robootssssssss_a_little_information_LINZ_IS_HERE}`            |
 | Kingsman                   | Web          | :heavy_check_mark: |            |                      | `agrihack{ur_now_our_agent0x05_LINZ_IS_HERE}`            |
 | Redirect                   | Web          | :heavy_check_mark: |            |                      | `agrihack{R3d1reCt_N0__r3dIrEcT!ng___x999699} `            |
-
 | PPHP                   | Web          | :heavy_check_mark: |            |                      | `agrihack{php_i5_g03d}`            |
 | Dark Joke	    | Forensic | :heavy_check_mark: |  				   |                        | `agrihack{RGB_1_is_d4rk_not_dark3st}`                         |
 | HEX MASTERACE   	    | Forensic | :heavy_check_mark: |  				   |                        | `agrihack{h3x_ad4lah_ko3ntji_LINZ_IS_BUCYN}`                  |
