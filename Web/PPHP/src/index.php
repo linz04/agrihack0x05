@@ -15,7 +15,7 @@
 			$auth = true;
 		}
 		if ($auth) {
-	    	echo "Wow! this your flag : $flag";
+	    	echo "Wow! this is your flag : $flag";
  	    }
  	   	else {
  		   	echo "Sorry its wrong:(<br>";
