@@ -1,8 +1,8 @@
 version: '2'
 services:
-  sql-1-mysql:
+  admin-mysql-agrihack:
     image: mysql:8.0
-    container_name: mysql-server-1-80
+    container_name: admin-mysql-agrihack
     command: --default-authentication-plugin=mysql_native_password
 #        working_dir: /application
     volumes:
@@ -16,8 +16,8 @@ services:
       - MYSQL_PASSWORD=p4s5w0RDR4h451A
     ports:
       - "3306:3306"
-  sql-1-website:
-    container_name: php72-1
+  admin-web-agrihack:
+    container_name: admin-web-agrihack
     build:
       context: ./
     volumes:
@@ -25,4 +25,4 @@ services:
     ports:
       - "16009:80"
     depends_on:
-      - sql-1-mysql
+      - admin-mysql-agrihack

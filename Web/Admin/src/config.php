@@ -1,5 +1,5 @@
 <?php
-$servername = "mysql-server-1-80";
+$servername = "admin-mysql-agrihack";
 $username = "db_user";
 $password = "p4s5w0RDR4h451A";
 $dbname = 'chall';
