@@ -1,8 +1,8 @@
 version: '2'
 services:
-  admin-mysql-agrihack:
+  agrihack-databreach:
     image: mysql:8.0
-    container_name: databreach-mysql-agrihack
+    container_name: agrihack-databreach
     command: --default-authentication-plugin=mysql_native_password
 #        working_dir: /application
     volumes:
@@ -11,13 +11,13 @@ services:
     restart: always
     environment:
       - MYSQL_ROOT_PASSWORD=Greyabuabu!123
-      - MYSQL_DATABASE=chall
-      - MYSQL_USER=db_user
+      - MYSQL_DATABASE=databreach
+      - MYSQL_USER=db_databreach
       - MYSQL_PASSWORD=Greyabuabu!
     ports:
       - "3307:3307"
-  admin-web-agrihack:
-    container_name: databreach-web-agrihack
+  agrihack-databreach-web:
+    container_name: agrihack-databreach-web
     build:
       context: ./
     volumes:
@@ -25,4 +25,4 @@ services:
     ports:
       - "16010:80"
     depends_on:
-      - databreach-mysql-agrihack
+      - agrihack-databreach
