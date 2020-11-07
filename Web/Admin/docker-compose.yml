@@ -1,0 +1,28 @@
+version: '2'
+services:
+  admin-mysql-agrihack:
+    image: mysql:8.0
+    container_name: admin-mysql-agrihack
+    command: --default-authentication-plugin=mysql_native_password
+#        working_dir: /application
+    volumes:
+      - .:/application
+      - ./db/db.sql:/docker-entrypoint-initdb.d/db.sql
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=r00t3dRah4551a
+      - MYSQL_DATABASE=chall
+      - MYSQL_USER=db_user
+      - MYSQL_PASSWORD=p4s5w0RDR4h451A
+    ports:
+      - "3306:3306"
+  admin-web-agrihack:
+    container_name: admin-web-agrihack
+    build:
+      context: ./
+    volumes:
+      - ./src/*:/var/www/html/*
+    ports:
+      - "16009:80"
+    depends_on:
+      - admin-mysql-agrihack

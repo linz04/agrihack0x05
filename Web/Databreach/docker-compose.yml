@@ -1,0 +1,28 @@
+version: '2'
+services:
+  agrihack-databreach:
+    image: mysql:8.0
+    container_name: agrihack-databreach
+    command: --default-authentication-plugin=mysql_native_password
+#        working_dir: /application
+    volumes:
+      - .:/application
+      - ./db/db.sql:/docker-entrypoint-initdb.d/db.sql
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=Greyabuabu!123
+      - MYSQL_DATABASE=databreach
+      - MYSQL_USER=db_databreach
+      - MYSQL_PASSWORD=Greyabuabu!
+    ports:
+      - "3307:3307"
+  agrihack-databreach-web:
+    container_name: agrihack-databreach-web
+    build:
+      context: ./
+    volumes:
+      - ./src/*:/var/www/html/*
+    ports:
+      - "16010:80"
+    depends_on:
+      - agrihack-databreach
