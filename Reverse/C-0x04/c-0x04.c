@@ -2,7 +2,12 @@
 #include <string.h>
 #include <stdlib.h>
 
-int check(char* substr, int n, int m) {
+void setup(){
+    setvbuf(stdin, 0, _IONBF, 0);
+    setvbuf(stdout, 0, _IONBF, 0);
+}
+
+int check1(char* substr, int n, int m) {
 
     int sum = 0;
     for (int i = 0; i < n; i++) {
@@ -47,20 +52,22 @@ int check3(char *substr, int n, int m){
 
 void print_flag(){
 
-    char flag[20];
+    char flag[40];
     FILE *fp = fopen("flag.txt", "r");
     if(fp == NULL){
         puts("Error: flag.txt: No such file or directory");
         exit(1);
     }
     fscanf(fp, "%s", flag);
-    printf("Congratz!\nHere is your flag: %s\n", flag);
+    printf("Congratz!\nHere is your flag: agrihack{%s}\n", flag);
 
 }
 
 int main(int argc, char const *argv[])
 {
     char buf[40];
+    setup();
+
     printf("input: ");
     scanf("%32s", buf);
 
@@ -71,7 +78,7 @@ int main(int argc, char const *argv[])
     //ddcagZZZ^KKIcfeh
 
     //dd
-    if(!check(&buf[0], 2, 5)){
+    if(!check1(&buf[0], 2, 5)){
         puts("incorrect");
         exit(1);
     }
@@ -83,7 +90,7 @@ int main(int argc, char const *argv[])
     }
 
     //ZZZ^
-    if(!check(&buf[5], 4, 7)){
+    if(!check1(&buf[5], 4, 7)){
         puts("incorrect");
         exit(1);
     }
