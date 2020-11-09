@@ -44,10 +44,14 @@ Agrihack 0x05
 | HEX MASTERACE - III	  | Forensic | :heavy_check_mark: |  				   |                        | `agrihack{m3tad4ta_fri3ndly_LINZ_IS_BUCYN}`                   |
 | HEX MASTERACE - IV	  | Forensic | :heavy_check_mark: |  				   |                        | `agrihack{m3t4data_m45tery_KASIAN_AH_LINZ}`                   |
 | HEX MASTERACE - V 	  | Forensic | :heavy_check_mark: |  				   |                        | `agrihack{met4dat4_g0dly_buc1n_wnn4be3}`                      |
+| Kabel Hiu	      | Forensic | :heavy_check_mark: |  				   |                        | `agrihack{http_iz_n0t_secur3_anym0r3}`                    |
+| KeyLogger	      | Forensic | :heavy_check_mark: |  				   |                        | `agrihack{USB_K3yStr0k333_Enj0yerz}`                    |
 | Mata Ajaib	  | Forensic | :heavy_check_mark: |  				   |                        | `agrihack{Stereogr4m_is_n0t_M4gic}`                    |
+| Sakura SmartTV  | Forensic | :heavy_check_mark: |  				   |                        | `agrihack{SlowSc4n_T3leV1si0n}`                    |
 | Side-by-Side	  | Forensic | :heavy_check_mark: |  				   |                        | `agrihack{y0u_c4n_aPP3nd_d4t4_Aft3r_PN6_F00tEr}`                    |
 | Vola - V1	  | Forensic | :heavy_check_mark: |  				   |                        | `agrihack{a_5Impl3_file_EkxTr4ct11oN__}`                    |
 | Vola - V2	  | Forensic | :heavy_check_mark: |  				   |                        | `agrihack{l33T_h4XX0rzz__u53_Cl1_yekn0w}`                    |
+| VN          | Forensic | :heavy_check_mark: |  				   |                        | `agrihack{audio_H1dd3n_1m4g3}`                         |
 | Wheres Waldo?	    | Forensic | :heavy_check_mark: |  				   |                        | `agrihack{oh_h3r3_15_w4LDoo__776c64}`                         |
 | Wo Sing Cing Tao	    | Forensic | :heavy_check_mark: |  				   |                        | `agrihack{Un1C0D3_Z3R0_width_SPAC3}`                         |
 | C-0x00            	  | Reverse  | :heavy_check_mark: |  				   |                        | `agrihack{sssHHHIIIffftttIIINNNggg}`                        |
