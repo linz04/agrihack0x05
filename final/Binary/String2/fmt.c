@@ -4,6 +4,8 @@
 #include <unistd.h>
 #include <sys/types.h>
 
+//gcc fmt.c -no-pie -m32 -fno-stack-protector -o fmt
+
 int target = 0x1337;
 
 void logo(){
@@ -25,7 +27,7 @@ void setup()
 int main(int argc, char **argv){
 
   setup();
-  char buffer[256];
+  char buffer[64];
   fgets(buffer, sizeof(buffer), stdin);
   printf(buffer);
   if(target == 0x7331){
