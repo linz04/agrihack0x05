@@ -1,0 +1,12 @@
+version: '3'
+services:
+  agrihack:
+    container_name: biji
+    restart: always
+    build:
+      context: .
+      args:
+              binary: source.py
+    ports:
+      - "15002:5000" # exposed:local
+    read_only: true
