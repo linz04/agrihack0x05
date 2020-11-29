@@ -27,7 +27,9 @@ void setup()
 int main(int argc, char **argv){
 
   setup();
+  logo();
   char buffer[64];
+  printf("Input: ");
   fgets(buffer, sizeof(buffer), stdin);
   printf(buffer);
   if(target == 0x7331){
