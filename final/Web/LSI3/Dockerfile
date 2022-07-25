@@ -13,6 +13,8 @@ COPY src/ /var/www/html/
 # Create ctf-user
 RUN groupadd -r nomoresecret && useradd -r -g nomoresecret nomoresecret
 RUN mkdir /home/nomoresecret
+RUN mkdir /tmp/upload
+RUN chmod 777 /tmp/upload
 
 # Challenge files
 ADD flag /home/nomoresecret/flag.txt

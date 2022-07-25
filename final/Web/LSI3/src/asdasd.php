@@ -11,7 +11,7 @@ if(isset($_POST['submit'])) {
         if ($_FILES['file']['error'] <= 0) {
                 $filename  = $_FILES['file']['name'];
                 $filetype  = $_FILES['file']['type'];
-                $uploaddir = 'upload/';
+                $uploaddir = '/tmp/upload/';
                 $file_ext  = strrchr($filename, '.');
                 $imageinfo = getimagesize($_FILES['file']['tmp_name']);
                 $whitelist = array(".jpg",".jpeg",".gif",".png"); 
