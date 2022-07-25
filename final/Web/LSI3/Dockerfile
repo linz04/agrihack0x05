@@ -16,5 +16,6 @@ RUN mkdir /home/nomoresecret
 
 # Challenge files
 ADD flag /home/nomoresecret/flag.txt
+ADD linz_is_here_this_the_real_flag /home/nomoresecret/linz_is_here_this_the_real_flag
 
 EXPOSE 80
